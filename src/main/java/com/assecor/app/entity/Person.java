@@ -52,13 +52,11 @@ public class Person
 
 	@Override
 	public String toString() {
-		StringBuilder sb = new StringBuilder();
-		sb.append("id: ").append(id)
-			.append(", lastname: ").append(lastname)
-			.append(", firstname: ").append(firstName)
-			.append(", zipcode: ").append(zipcode)
-			.append(", city: ").append(city)
-			.append(", color: ").append(color);
-		return sb.toString();
+		return "id: " + id +
+				", lastname: " + lastname +
+				", firstname: " + firstName +
+				", zipcode: " + zipcode +
+				", city: " + city +
+				", color: " + color;
 	}
 }

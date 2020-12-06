@@ -7,7 +7,7 @@ public class Color
 {
 	public static final String BLAU = "blau";
 	public static final String GRUEN = "grün";
-	public static final String VIOLETT = "violett";;
+	public static final String VIOLETT = "violett";
 	public static final String ROT = "rot";
 	public static final String GELB = "gelb";
 	public static final String TUERKIS = "türkis";

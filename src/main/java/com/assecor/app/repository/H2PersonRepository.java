@@ -37,17 +37,13 @@ public class H2PersonRepository implements PersonRepository
 	@Value( "${spring.datasource.password}")
 	private String password;
 
-	private Connection connection;
+	private final Connection connection;
 	private EntityManagerFactory factory;
 	EntityManager entityManager;
 	EntityTransaction transaction;
 
-	public H2PersonRepository() {
-		try {
-			connection = DriverManager.getConnection(url);
-		} catch (SQLException e) {
-			System.err.println(e);
-		}
+	public H2PersonRepository() throws SQLException{
+		connection = DriverManager.getConnection(url, username, password);
 	}
 
 	public void initTransaction() {
