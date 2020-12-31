@@ -1,7 +1,9 @@
-# Assecor Assessment Test
+# BackendTest - SpringBoot
 
-Using springboot and h2 database
+Small backend program to test REST API functionality of Spring Boot and H2 database.
 
-Code is located at `src/main/java/com/assecor/app`. Sample input file is not changed.
+`PersonController` provides `GET` and `POST` API to interact with `Person`- entity in the database.
 
-Test class for REST-controlloer is located at `src/test/java/com/assecor/app/rest`
+Code is located at `src/main/java/com/shennarwp/app`. Sample input file is not changed.
+
+Test class for REST-controlloer is located at `src/test/java/com/shennarwp/app/rest`

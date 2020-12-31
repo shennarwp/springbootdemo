@@ -1,4 +1,4 @@
-package com.assecor.app.exception;
+package com.shennarwp.app.exception;
 
 /**
  * Exception class for when the person with passed id is not found in the repository

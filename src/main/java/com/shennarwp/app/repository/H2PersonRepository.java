@@ -1,8 +1,7 @@
-package com.assecor.app.repository;
+package com.shennarwp.app.repository;
 
-import com.assecor.app.entity.Color;
-import com.assecor.app.entity.Person;
-import org.springframework.beans.factory.annotation.Value;
+import com.shennarwp.app.entity.Color;
+import com.shennarwp.app.entity.Person;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
 
@@ -10,9 +9,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -27,24 +23,11 @@ import java.util.stream.Collectors;
 @Profile("h2")
 public class H2PersonRepository implements PersonRepository
 {
-	/* these will be read from application.properties*/
-	@Value( "${spring.datasource.url}" )
-	private String url;
-
-	@Value( "${spring.datasource.username}")
-	private String username;
-
-	@Value( "${spring.datasource.password}")
-	private String password;
-
-	private final Connection connection;
 	private EntityManagerFactory factory;
 	EntityManager entityManager;
 	EntityTransaction transaction;
 
-	public H2PersonRepository() throws SQLException{
-		connection = DriverManager.getConnection(url, username, password);
-	}
+	public H2PersonRepository(){}
 
 	public void initTransaction() {
 		factory = Persistence.createEntityManagerFactory("h2");

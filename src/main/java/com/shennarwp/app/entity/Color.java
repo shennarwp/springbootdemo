@@ -1,4 +1,4 @@
-package com.assecor.app.entity;
+package com.shennarwp.app.entity;
 
 /**
  * This class represent the Color object / constants

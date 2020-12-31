@@ -1,6 +1,6 @@
-package com.assecor.app.util;
+package com.shennarwp.app.util;
 
-import com.assecor.app.entity.Person;
+import com.shennarwp.app.entity.Person;
 
 import java.util.List;
 

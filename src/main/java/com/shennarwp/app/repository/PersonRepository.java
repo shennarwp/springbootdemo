@@ -1,6 +1,6 @@
-package com.assecor.app.repository;
+package com.shennarwp.app.repository;
 
-import com.assecor.app.entity.Person;
+import com.shennarwp.app.entity.Person;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

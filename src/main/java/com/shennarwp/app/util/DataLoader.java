@@ -1,6 +1,6 @@
-package com.assecor.app.util;
+package com.shennarwp.app.util;
 
-import com.assecor.app.repository.PersonRepository;
+import com.shennarwp.app.repository.PersonRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

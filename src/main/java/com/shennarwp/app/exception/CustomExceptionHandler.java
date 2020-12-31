@@ -1,4 +1,4 @@
-package com.assecor.app.exception;
+package com.shennarwp.app.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;

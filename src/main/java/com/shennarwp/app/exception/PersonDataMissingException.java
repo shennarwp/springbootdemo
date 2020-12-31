@@ -1,4 +1,4 @@
-package com.assecor.app.exception;
+package com.shennarwp.app.exception;
 
 /**
  * Custom exception for when person's data is incomplete

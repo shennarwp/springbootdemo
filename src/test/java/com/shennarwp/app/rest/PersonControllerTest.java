@@ -1,10 +1,10 @@
-package com.assecor.app.rest;
+package com.shennarwp.app.rest;
 
-import com.assecor.app.entity.Person;
-import com.assecor.app.exception.PersonDataMissingException;
-import com.assecor.app.exception.PersonNotFoundException;
-import com.assecor.app.repository.PersonRepository;
-import com.assecor.app.repository.SimplePersonRepository;
+import com.shennarwp.app.entity.Person;
+import com.shennarwp.app.exception.PersonDataMissingException;
+import com.shennarwp.app.exception.PersonNotFoundException;
+import com.shennarwp.app.repository.PersonRepository;
+import com.shennarwp.app.repository.SimplePersonRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;

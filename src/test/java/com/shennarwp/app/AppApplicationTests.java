@@ -1,4 +1,4 @@
-package com.assecor.app;
+package com.shennarwp.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

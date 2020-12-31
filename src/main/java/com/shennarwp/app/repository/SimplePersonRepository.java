@@ -1,11 +1,13 @@
-package com.assecor.app.repository;
+package com.shennarwp.app.repository;
 
-import com.assecor.app.entity.Color;
-import com.assecor.app.entity.Person;
+import com.shennarwp.app.entity.Color;
+import com.shennarwp.app.entity.Person;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 /**
